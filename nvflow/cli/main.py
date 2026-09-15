@@ -168,7 +168,7 @@ def list_stages(
         None, "--recipe", "-r", help="Optional: Filter by recipe (finance, example, multimodal)"
     ),
     workflow: str | None = typer.Option(
-        None, "--workflow", "-w", help="Optional: Filter by workflow (training_sft, sdg_basic)"
+        None, "--workflow", "-w", help="Optional: Filter by workflow (training_sft, sdg_simple)"
     ),
 ):
     """List all available stages or stages in a workflow config."""
